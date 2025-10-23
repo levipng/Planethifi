@@ -1,0 +1,21 @@
+ul{
+    list-style: none;
+}
+
+html, body {
+    height: 100%;
+    margin: 0;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+}
+
+.main-center {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    min-height: calc(100vh - 70px); /* kb. ennyi a navbar magassága, ha kell finomítani */
+}
